@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecionando...</title>
+    <script>
+      // Redirecionamento SPA para GitHub Pages evitando tela branca e erro 404
+      var pathSegmentsToKeep = 1;
+      var l = window.location;
+      var repoBase = l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/');
+      var path = l.pathname.slice(repoBase.length);
+      var newUrl = l.protocol + '//' + l.host + repoBase + '/#' + path + (l.search ? l.search : '') + l.hash;
+      window.location.replace(newUrl);
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

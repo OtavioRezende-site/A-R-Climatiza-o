@@ -1,0 +1,6 @@
+{
+  "name": "A R Climatização",
+  "description": "Serviços de climatização e refrigeração para diferentes tipos de ar-condicionado em Cascadura, Rio de Janeiro. Contato direto pelo WhatsApp e telefone.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
