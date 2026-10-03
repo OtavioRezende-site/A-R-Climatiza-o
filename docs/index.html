@@ -19,23 +19,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/app.css" onerror="this.remove()" />
+    <script type="module" crossorigin src="/A-R-Climatiza-o/assets/index-UPwbNXhM.js"></script>
+    <link rel="stylesheet" crossorigin href="/A-R-Climatiza-o/assets/index-C4R9MrL2.css">
   </head>
   <body class="bg-[#07111B] text-slate-100 antialiased selection:bg-[#39BDF2]/30 selection:text-white" style="background-color: #07111B; color: #F1F5F9; min-height: 100vh;">
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-    <script type="module">
-      // Executa no GitHub Pages caso o ambiente estático não compile /src/main.tsx
-      setTimeout(function() {
-        const root = document.getElementById('root');
-        if (!root || root.children.length === 0) {
-          const basePath = window.location.pathname.includes('/A-R-Climatiza-o') ? '/A-R-Climatiza-o' : '.';
-          import(basePath + '/assets/app.js').catch(function(e) {
-            console.error('Fallback load error:', e);
-          });
-        }
-      }, 120);
-    </script>
   </body>
 </html>
 
